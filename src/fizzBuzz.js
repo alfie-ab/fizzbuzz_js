@@ -2,15 +2,15 @@ function FizzBuzz() {
 }
 FizzBuzz.prototype.play = function (number) {
   if (number%15 === 0) {
-    return 'fizzbuzz'
+    return 'fizzbuzz';
   }
   else if (number%5 === 0) {
-    return 'buzz'
+    return 'buzz';
   }
   else if (number%3 === 0) {
-    return 'fizz'
+    return 'fizz';
   }
   else {
-    return number
+    return number;
   }
 };
